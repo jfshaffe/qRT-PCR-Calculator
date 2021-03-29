@@ -5,6 +5,7 @@
 
 
 #written by Joshua Shaffer (jfshaffe@ucsc.edu)
+#compressed/streamlined by sepler
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
