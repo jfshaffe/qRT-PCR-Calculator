@@ -2,7 +2,7 @@
 Calculates Fold Change and Log2 Fold Change using raw Ct/Cq values (three technical replicates each condition) using delta delta Ct method
 DIRECTIONS ON HOW TO USE:
 1. Open this website: https://www.onlinegdb.com/online_python_compiler   (it's a free secure online Python IDE/Internal Development Environment like PyCharm except it's online)
-2.  Copy the qRT-PCR Calculator Python code (qRT-PCR Fold Change & log2fc Calculator by Joshua Shaffer .py) that I wrote and paste it into the top panel of the website 
+2.  Copy the qRT-PCR Calculator Python code (https://github.com/jfshaffe/qRT-PCR-Calculator/blob/24bf86173fe13317807afba6673d05e42b9bbb12/qRT-PCR%20Fold%20Change%20&%20log2fc%20Calculator%20by%20Joshua%20Shaffer%20.py) that I wrote and paste it into the top panel of the website 
 3.  Click the green play (triangle) button that says 'Run'
 4.  In the bottom panel it will prompt you to enter a Cq/Ct value where there is a cursor flashing next to the description of which value to enter
 5.  Enter the value then press enter on your keyboard
@@ -11,3 +11,4 @@ DIRECTIONS ON HOW TO USE:
 8.  Copy and paste everything in the bottom panel of the website (especially the fold change and log2fc values) into Excel 
 #EXPLANATION BELOW ABOUT WHERE TO PUT WHICH CQ/CT VALUES 
 #Say for example we are querying the expression of _MAL12_ mRNA (encodes a maltase enzyme for breaking down maltose) in yeast (_Saccharomyces cerevisiae_) grown in maltose rich media (YPM aka yeast extract peptone maltose) versus yeast grown in glucose rich media (YPD aka yeast extract peptone dextrose). The experimental group would be the yeast grown in maltose rich media whereas the control group would be the yeast grown in glucose rich media. The experimental gene would be _MAL12_ whereas the housekeeping gene would be a gene that would not be expected to change in expression between the two groups and that is known to be expressed at steady levels such as _GAPDH_ or _B-actin_
+#In my experience this program cuts data analysis time by approximately in half the only work you have to do is enter the Cq/Ct values and the program does the rest of the math
