@@ -2,7 +2,7 @@
 Calculates Fold Change and Log2 Fold Change using raw Ct/Cq values (three technical replicates each condition) using delta delta Ct method
 DIRECTIONS ON HOW TO USE:
 1. Open this website: https://www.onlinegdb.com/online_python_compiler   (it's a free secure online Python IDE/Internal Development Environment like PyCharm except it's online)
-2.  Copy the qRT-PCR Calculator Python code that I wrote and paste it into the top panel of the website 
+2.  Copy the qRT-PCR Calculator Python code (qRT-PCR Fold Change & log2fc Calculator by Joshua Shaffer .py) that I wrote and paste it into the top panel of the website 
 3.  Click the green play (triangle) button that says 'Run'
 4.  In the bottom panel it will prompt you to enter a Cq/Ct value where there is a cursor flashing next to the description of which value to enter
 5.  Enter the value then press enter on your keyboard
